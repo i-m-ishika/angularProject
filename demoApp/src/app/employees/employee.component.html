@@ -1,0 +1,25 @@
+<div style="padding: 15px;">
+<em style="font-weight: bold; color:blueviolet">Click to load employees' information!</em>
+<br/><br/>
+<button mat-raised-button color="primary" (click)='loadData()'>Load Employee Data</button>
+<br/><br/>
+    <table *ngIf="isDataLoaded">
+        <thead>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>GENDER</th>
+            <th>AGE</th>
+        </thead>
+        <tbody >
+            <tr *ngFor = "let employee of employees">
+                <td>{{employee.id}}</td>
+                <td>{{employee.name | prefixPipe : employee.gender}}</td>
+                <td>{{employee.gender}}</td>
+                <td>{{employee.age}}</td>
+            </tr>
+
+        </tbody>
+        
+    </table>
+
+</div>

@@ -1,0 +1,7 @@
+table{
+    border-style: double;
+}
+td,th{
+    border-style: double;
+    padding: 2px;
+}

@@ -1,0 +1,19 @@
+div{
+  padding:15px;
+}
+table{
+
+  margin-top: 15px;
+}
+td{
+  font-size: small;
+  font-weight: bold;
+  color:grey;
+
+}
+a{
+  color: indigo
+}
+a:hover{
+  color : pink
+}

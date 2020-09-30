@@ -1,0 +1,45 @@
+<div style="padding: 15px">
+    <em style="font-weight: bold; color:cadetblue">A few practice examples</em>
+    
+    <br/><br/>
+    <table>
+        <thead><th> operators used</th></thead>
+        <tbody><tr><td>{{operators}}</td></tr></tbody>
+    </table>
+   
+    <ul>
+
+    <br/><li>Reduce v/s Scan</li>
+    <div>Numbers: {{numbers}}</div>
+    <button #button1>Reduce </button>
+    <span style="padding:5px">       </span>
+    <button #button2>Scan</button>
+    <br>
+    <span class ="description">Description: Check console to find the difference between <em>reduce</em> and <em>scan</em> operators in rxjs</span>
+    <br/>
+
+    <br/><li>debounceTime</li>
+    <input placeholder="Search" #input1>
+    <br/> You are searching for: <span style="color:crimson">{{searchValue}}</span>
+    <br/>
+    <span class='description'>Description: Waits for 1 second of inactivity before accepting user input.</span>
+    <br/>
+    
+    <br/><li>switchMap </li>
+    <button #button3>Start Interval</button>
+    <br>
+    <span class ="description">Description: Clicking this button starts a new interval. Check console!</span>
+    <br/>
+
+    <br/><li>mergeMap</li>
+    <input placeholder="First Name" type="text" #input2><span style="padding: 2px"></span>
+    <input placeholder="Last Name" type="text" #input3>
+    <br/> You entered: <span style="color:crimson">{{combinedValue}}</span>
+    <br/>
+    <span class='description'>Description: Fired when second input field is filled</span>
+    <br/>
+
+    </ul>
+   
+
+</div>

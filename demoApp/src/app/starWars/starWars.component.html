@@ -1,0 +1,17 @@
+<div>
+  <em style="font-weight: bold; color:plum">Click to load Star Wars' character names from <a target="_blank" href="https://swapi.dev/api/people/">here</a>!</em>
+  <br/><br/>
+  <button mat-raised-button (click)="loadData()">Click me</button>
+  <p *ngIf = "isFetching">Loading data..</p>
+  <span *ngIf = "!isFetching">
+    <table>
+      <tr *ngFor="let person of persons">
+        <td>{{person}}</td>
+      </tr>
+    </table>
+
+
+
+  </span>
+</div>
+

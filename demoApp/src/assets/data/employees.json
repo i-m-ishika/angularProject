@@ -1,0 +1,8 @@
+[
+    {"id": 1, "name": "Eliot Alderson", "gender": "Male","age":28},
+    {"id": 2, "name": "Tyrell Wellick", "gender": "Male","age":34},
+    {"id": 3, "name": "Angela Moss", "gender": "Female","age":27},
+    {"id": 4, "name": "Ollie Parker", "gender": "Male","age":32},
+    {"id": 5, "name": "Darlene", "gender": "Female","age":26},
+    {"id": 6, "name": "Dominique DiPierro", "gender": "Female","age":31}
+]
