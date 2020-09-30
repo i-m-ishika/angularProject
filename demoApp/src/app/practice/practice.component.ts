@@ -62,10 +62,10 @@ export class PracticeComponent implements AfterViewInit{
 
 
         //4
-        let inputObs1 = Rx.fromEvent(this.input2.nativeElement,'input');
+        
         let inputObs2 = Rx.fromEvent(this.input3.nativeElement,'input');
 
-        inputObs1.pipe(
+        Rx.fromEvent(this.input2.nativeElement,'input').pipe(
             mergeMap(
                 event1=>{
                     return inputObs2.pipe(
